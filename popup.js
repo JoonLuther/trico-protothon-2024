@@ -34,6 +34,9 @@ document.addEventListener('DOMContentLoaded', function() {
         showPage('welcome');
     });
 
+    document.getElementById('reading-btn').addEventListener('click', function() {
+        showPage('reading');
+    });
 
 
 
@@ -51,4 +54,5 @@ document.addEventListener('DOMContentLoaded', function() {
             button.classList.toggle('clicked');
         });
     });
+
 });
